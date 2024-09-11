@@ -1,4 +1,5 @@
 import React from "react";
+import profile from './profilephoto.jpg';
 import "./About.css";
 import Jump from "react-reveal/Jump";
 const About = () => {
@@ -7,9 +8,9 @@ const About = () => {
       <Jump>
         <div className="about" id="about">
           <div className="row">
-            <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
+            <div className="col-md-4 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+                src={profile}
                 alt="profile_pic"
               />
             </div>
